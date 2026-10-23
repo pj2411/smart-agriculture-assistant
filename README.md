@@ -58,10 +58,9 @@ smart-agriculture-assistant/
 │   ├── main.py                 # API routes, CORS & middleware
 │   ├── crop.py                 # CatBoost crop recommendation service
 │   ├── disease.py              # ResNet50 disease diagnosis & HuggingFace downloader
-│   ├── chatbot.py              # Farming assistant dialogue & OpenRouter integration
 │   ├── auth.py                 # Supabase JWT authentication & demo fallback
 │   ├── jalsaathi_domain.py     # Climate scenarios & deterministic rule engine
-│   ├── jalsaathi_providers.py  # LLM, STT, and TTS third-party integrations
+│   ├── jalsaathi_providers.py  # OpenRouter LLM, Gnani STT & TTS voice integrations
 │   ├── models/                 # Pretrained weights (.pkl) & disease cache (.keras)
 │   ├── test_api_local.py       # Comprehensive backend endpoint verification suite
 │   └── test_jalsaathi.py       # Domain logic unit tests
