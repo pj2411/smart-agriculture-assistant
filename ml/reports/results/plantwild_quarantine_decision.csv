@@ -1,0 +1,137 @@
+Path,Split,Class,Hash,Other_Copies,Other_Splits,Other_Classes,Safe_Candidate,Different_Split_Copy,Decision
+plant wild\val\apple leaf\87.jpg,val,apple leaf,d92840f9e04bc72107d3fae9bfe8d732,1,train,strawberry leaf,True,True,QUARANTINE
+plant wild\test\apple rust\77.jpg,test,apple rust,8c2368e30356785028df7f5c096079b9,1,val,apple scab,True,True,QUARANTINE
+plant wild\val\apple scab\62.jpg,val,apple scab,26548b46fec797e0fb46f572aa2f7858,1,train,apple rust,True,True,QUARANTINE
+plant wild\val\apple scab\google_0125.jpg,val,apple scab,3846bdb7f5e27542c0cfb201f000ba97,1,train,apple mosaic virus,True,True,QUARANTINE
+plant wild\test\soybean leaf\google_0526.jpg,test,soybean leaf,de2e8a0827dde7ee359a7aaf58ea1b91,1,val,bean leaf,True,True,QUARANTINE
+plant wild\val\bean mosaic virus\google_0111.jpg,val,bean mosaic virus,286302c70a6f120649dd91f9c8f213c1,2,train,apple mosaic virus | tomato mosaic virus,True,True,QUARANTINE
+plant wild\test\tomato septoria leaf spot\google_0044.jpg,test,tomato septoria leaf spot,ee9e792c202d1cf2caf480f2006a9676,1,val,bell pepper leaf spot,True,True,QUARANTINE
+plant wild\val\bell pepper leaf spot\google_0213.jpg,val,bell pepper leaf spot,917d276acb623f50e9ef2d1d5bba1534,2,train,bean halo blight | eggplant cercospora leaf spot,True,True,QUARANTINE
+plant wild\test\bean rust\google_0051.jpg,test,bean rust,0b8b47765480bef48d0ecd7ae520b04c,1,val,blueberry rust,True,True,QUARANTINE
+plant wild\val\broccoli downy mildew\google_0003.jpg,val,broccoli downy mildew,e3a942ef4e00674bedce99366c443e9c,1,train,cabbage alternaria leaf spot,True,True,QUARANTINE
+plant wild\val\cabbage alternaria leaf spot\google_0047.jpg,val,cabbage alternaria leaf spot,4f5262b4ad2486a8394aaf0630d9920b,1,train,cauliflower alternaria leaf spot,True,True,QUARANTINE
+plant wild\test\tomato early blight\google_0059.jpg,test,tomato early blight,9e271db4d90b361fc7bd0956b883a17c,1,val,celery early blight,True,True,QUARANTINE
+plant wild\val\celery leaf\90.jpg,val,celery leaf,9b639c3b1da64617dc0fafb166db8137,1,train,celery early blight,True,True,QUARANTINE
+plant wild\val\cherry leaf\google_0158.jpg,val,cherry leaf,d1951503e70cd5dd6a4906cb91193612,1,train,apple leaf,True,True,QUARANTINE
+plant wild\val\cherry leaf spot\google_0289.jpg,val,cherry leaf spot,c5f6e35b78ebc023187a8e0e92d65c67,2,"test, train",eggplant cercospora leaf spot | tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\test\eggplant cercospora leaf spot\google_0071.jpg,test,eggplant cercospora leaf spot,c5f6e35b78ebc023187a8e0e92d65c67,2,"train, val",cherry leaf spot | tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\val\cherry powdery mildew\8.jpg,val,cherry powdery mildew,43bd4c17757a034a916b71a08d88f634,1,train,apple rust,True,True,QUARANTINE
+plant wild\val\corn gray leaf spot\20.jpg,val,corn gray leaf spot,0f02337fb4fd0fc20a86a058f70d48a1,1,train,corn northern leaf blight,True,True,QUARANTINE
+plant wild\val\corn northern leaf blight\11.jpg,val,corn northern leaf blight,f6ba01591f0a0c3b41029659c7264ae3,1,train,corn gray leaf spot,True,True,QUARANTINE
+plant wild\val\corn northern leaf blight\google_0047.jpg,val,corn northern leaf blight,dbfc8c87ec6c46db31dab1a224447e2a,1,train,corn gray leaf spot,True,True,QUARANTINE
+plant wild\val\cucumber powdery mildew\google_0046.jpg,val,cucumber powdery mildew,5b777378c84cc57bdd0bd5af022ec085,1,train,squash powdery mildew,True,True,QUARANTINE
+plant wild\val\cucumber powdery mildew\google_0131.jpg,val,cucumber powdery mildew,1bad0c341cc30d33ad1e9b730491f248,2,"test, train",basil downy mildew | lettuce downy mildew,True,True,QUARANTINE
+plant wild\test\lettuce downy mildew\google_0209.jpg,test,lettuce downy mildew,1bad0c341cc30d33ad1e9b730491f248,2,"train, val",basil downy mildew | cucumber powdery mildew,True,True,QUARANTINE
+plant wild\val\cucumber powdery mildew\google_0170.jpg,val,cucumber powdery mildew,be0114293e3463e5a4dc78b3908abc02,1,train,cucumber leaf,True,True,QUARANTINE
+plant wild\val\garlic leaf blight\google_0004.jpg,val,garlic leaf blight,5ce85b8cc7741a733c675b95ebe509b9,1,train,garlic leaf,True,True,QUARANTINE
+plant wild\val\garlic rust\google_0002.jpg,val,garlic rust,34f28a05ce8697a7f8073d5740931601,1,train,garlic leaf blight,True,True,QUARANTINE
+plant wild\val\ginger leaf spot\google_0011.jpg,val,ginger leaf spot,cd0d77101ba7f984f22e7f8ebe2fad14,1,train,ginger sheath blight,True,True,QUARANTINE
+plant wild\val\grape leaf spot\25.jpg,val,grape leaf spot,3b69ede8fd6adee4a1040eb0271bdafd,1,train,grape leaf,True,True,QUARANTINE
+plant wild\val\grape leaf spot\google_0046.jpg,val,grape leaf spot,5c686dcb8a334ff1fe05f370fadfe873,2,train,potato early blight | tomato early blight,True,True,QUARANTINE
+plant wild\val\grape leaf spot\google_0060.jpg,val,grape leaf spot,811ebb4493455fc36b6948e812cb90cb,3,"test, train",bean halo blight | potato early blight | tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\test\bean halo blight\google_0032.jpg,test,bean halo blight,811ebb4493455fc36b6948e812cb90cb,3,"test, train, val",grape leaf spot | potato early blight | tomato bacterial leaf spot,True,False,SPECIAL_REVIEW
+plant wild\test\tomato bacterial leaf spot\google_0055.jpg,test,tomato bacterial leaf spot,811ebb4493455fc36b6948e812cb90cb,3,"test, train, val",bean halo blight | grape leaf spot | potato early blight,True,False,SPECIAL_REVIEW
+plant wild\val\lettuce downy mildew\65.jpg,val,lettuce downy mildew,580d800f03bf422adf57db14368f8c56,1,train,lettuce mosaic virus,True,True,QUARANTINE
+plant wild\val\lettuce downy mildew\78.jpg,val,lettuce downy mildew,9dd92b09568607aa21bd92aa61610fdc,1,train,lettuce mosaic virus,True,True,QUARANTINE
+plant wild\test\potato late blight\10.jpg,test,potato late blight,b15093fcc2d487d3e828f88f14c551e1,1,val,potato early blight,True,True,QUARANTINE
+plant wild\test\tomato early blight\google_0046.jpg,test,tomato early blight,a4f597a2810f30e2c55dc49e6fea37f6,1,val,potato early blight,True,True,QUARANTINE
+plant wild\val\potato early blight\google_0111.jpg,val,potato early blight,c57367d9524a44ce0e7333a4b0a23ee1,1,train,tomato early blight,True,True,QUARANTINE
+plant wild\val\potato early blight\google_0133.jpg,val,potato early blight,c7c850a5f840d8d41de95e9fcc7d317e,1,train,tomato early blight,True,True,QUARANTINE
+plant wild\val\potato early blight\google_0225.jpg,val,potato early blight,60ed86831cb1f351ccb1cc82dadcceec,1,train,tomato early blight,True,True,QUARANTINE
+plant wild\test\bean halo blight\24.jpg,test,bean halo blight,e988abddc02041fe5da23c0ed36e0320,2,"test, val",bean halo blight | potato late blight,True,False,SPECIAL_REVIEW
+plant wild\test\bean halo blight\26.jpg,test,bean halo blight,e988abddc02041fe5da23c0ed36e0320,2,"test, val",bean halo blight | potato late blight,True,False,SPECIAL_REVIEW
+plant wild\val\potato late blight\google_0152.jpg,val,potato late blight,ebcea9d80125ceed8e0e14fbf209bed4,1,train,potato early blight,True,True,QUARANTINE
+plant wild\val\potato leaf\google_0292.jpg,val,potato leaf,2372b519d8ce4ae7b1fdcf8c02b5e1e8,1,train,tomato leaf,True,True,QUARANTINE
+plant wild\val\rice sheath blight\52.jpg,val,rice sheath blight,b4598f14e8e0a60a9979a93ec46ff7f2,1,train,ginger sheath blight,True,True,QUARANTINE
+plant wild\val\squash leaf\zgoogle_0131.jpg,val,squash leaf,521f62c5560dea6064739b13cfa67217,1,train,zucchini yellow mosaic virus,True,True,QUARANTINE
+plant wild\val\strawberry leaf\google_0338.jpg,val,strawberry leaf,845868881113878d669bc2c103dc3946,1,train,grape leaf,True,True,QUARANTINE
+plant wild\val\tomato bacterial leaf spot\15.jpg,val,tomato bacterial leaf spot,53f589879deeb0762aaad49f2bbc8433,1,train,tomato septoria leaf spot,True,True,QUARANTINE
+plant wild\val\tomato bacterial leaf spot\google_0059.jpg,val,tomato bacterial leaf spot,2c6f01408cba6a622f563a1625bf4fc8,4,"test, train",bell pepper leaf spot | cherry leaf spot | eggplant cercospora leaf spot | tomato septoria leaf spot,True,True,QUARANTINE
+plant wild\test\tomato septoria leaf spot\google_0004.jpg,test,tomato septoria leaf spot,2c6f01408cba6a622f563a1625bf4fc8,4,"train, val",bell pepper leaf spot | cherry leaf spot | eggplant cercospora leaf spot | tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\val\tomato bacterial leaf spot\google_0070.jpg,val,tomato bacterial leaf spot,b0e61370d713187e2895392b1a10b3d9,1,train,tomato septoria leaf spot,True,True,QUARANTINE
+plant wild\val\tomato bacterial leaf spot\google_0328.jpg,val,tomato bacterial leaf spot,ad725717d379f5bec14ba2300af5da5b,1,train,tomato early blight,True,True,QUARANTINE
+plant wild\val\tomato late blight\101.jpg,val,tomato late blight,fdfe8387f57690d45baac2f94be8853a,1,train,tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\val\tomato late blight\google_0016.jpg,val,tomato late blight,354ccc6509b9fe99aa6f3757f5aca9c6,1,train,potato early blight,True,True,QUARANTINE
+plant wild\val\tomato mosaic virus\1.jpg,val,tomato mosaic virus,14ee78bac8de28dbe81924b2f87d0d67,1,train,tomato yellow leaf curl virus,True,True,QUARANTINE
+plant wild\val\tomato mosaic virus\16.jpg,val,tomato mosaic virus,1c15745c1daf382b0f2279f6610b8f59,1,train,apple mosaic virus,True,True,QUARANTINE
+plant wild\val\tomato mosaic virus\184.jpg,val,tomato mosaic virus,0187ea51a7e765edfc02691ce1f3c737,1,train,bean mosaic virus,True,True,QUARANTINE
+plant wild\val\tomato mosaic virus\30.jpg,val,tomato mosaic virus,df082708f954f9a131481d722b8ffe1a,2,train,tomato mosaic virus | tomato yellow leaf curl virus,True,True,QUARANTINE
+plant wild\val\tomato septoria leaf spot\88.jpg,val,tomato septoria leaf spot,cd1e3d5b9e2648f1610bcfb03daefb5b,1,train,tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\val\tomato septoria leaf spot\google_0226.jpg,val,tomato septoria leaf spot,3d84816f4e619e90f26d0907bcc7228c,1,train,bell pepper leaf spot,True,True,QUARANTINE
+plant wild\val\tomato yellow leaf curl virus\40.jpg,val,tomato yellow leaf curl virus,ac4e62a9aee9bb718e1097d0f59db001,1,train,tomato mosaic virus,True,True,QUARANTINE
+plant wild\test\grape black rot\96.jpg,test,grape black rot,ab11d49f06013ef9bdf6bea391d0998f,1,train,apple black rot,True,True,QUARANTINE
+plant wild\test\apple scab\76.jpg,test,apple scab,2665d0235b137aefbf8934f19086999a,1,train,apple rust,True,True,QUARANTINE
+plant wild\test\apple rust\78.jpg,test,apple rust,10a5936b2819994eb14d4799243f6308,1,train,apple scab,True,True,QUARANTINE
+plant wild\test\apple mosaic virus\18.jpg,test,apple mosaic virus,bce6c913a6d38252fd70a70a28bde8ca,1,train,bean mosaic virus,True,True,QUARANTINE
+plant wild\test\bean halo blight\google_0191.jpg,test,bean halo blight,7a26ef20c0ad9fa3f8a92bbc69ad34da,1,train,bean rust,True,True,QUARANTINE
+plant wild\test\bean leaf\google_0054 - Copy.jpg,test,bean leaf,a3259b822c6421a0fdfa7c06f4060820,1,train,bean rust,True,True,QUARANTINE
+plant wild\test\basil leaf\213.jpg,test,basil leaf,969fcb0e4140c2f792b11f589c83157b,1,train,bell pepper leaf,True,True,QUARANTINE
+plant wild\test\apple rust\20.jpg,test,apple rust,b438b3150cbd759496d9513c9aa11307,1,train,blueberry rust,True,True,QUARANTINE
+plant wild\test\lettuce downy mildew\google_0049.jpg,test,lettuce downy mildew,4cee6ce240d19fe748874b47639728d9,1,train,broccoli downy mildew,True,True,QUARANTINE
+plant wild\test\cabbage leaf\google_0037.jpg,test,cabbage leaf,3c4458dc85459104c0db76966cbbef47,2,train,broccoli leaf | cauliflower leaf,True,True,QUARANTINE
+plant wild\test\cauliflower alternaria leaf spot\google_0186.jpg,test,cauliflower alternaria leaf spot,dd391f09455c0c987ca3a5d48f2d0508,1,train,cabbage alternaria leaf spot,True,True,QUARANTINE
+plant wild\test\cauliflower alternaria leaf spot\google_0028.jpg,test,cauliflower alternaria leaf spot,0aec7e4080ae92fcbaefffc8ab070169,1,train,cabbage alternaria leaf spot,True,True,QUARANTINE
+plant wild\test\cauliflower alternaria leaf spot\google_0056.jpg,test,cauliflower alternaria leaf spot,583c5e18c7af3566230db7987e1dc6a2,4,train,cabbage alternaria leaf spot | eggplant cercospora leaf spot | grape leaf spot | tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\test\cauliflower alternaria leaf spot\google_0230.jpg,test,cauliflower alternaria leaf spot,3158e32c6d472ac4b18cdad1ce77c079,1,train,cabbage alternaria leaf spot,True,True,QUARANTINE
+plant wild\test\cabbage alternaria leaf spot\google_0032.jpg,test,cabbage alternaria leaf spot,39d1636211a2b5afec3dbc25277992a7,1,train,cauliflower alternaria leaf spot,True,True,QUARANTINE
+plant wild\test\tomato septoria leaf spot\google_0039.jpg,test,tomato septoria leaf spot,ac17ea00d69e0fbf49e03f867d933a14,2,train,celery early blight | eggplant cercospora leaf spot,True,True,QUARANTINE
+plant wild\test\plum leaf\google_0039.jpg,test,plum leaf,0ec9bf0ff4256f39a7615449c0621bc7,1,train,cherry leaf spot,True,True,QUARANTINE
+plant wild\test\squash powdery mildew\google_0106.jpg,test,squash powdery mildew,f74dabd14e98584bb41d92d0a426f4d2,2,train,cherry powdery mildew | lettuce downy mildew,True,True,QUARANTINE
+plant wild\test\coffee leaf rust\16.jpg,test,coffee leaf rust,e993325e8f9c60b1bffe54fa4236bcb0,1,train,coffee leaf,True,True,QUARANTINE
+plant wild\test\blueberry rust\26.jpg,test,blueberry rust,b178078426f05c6e3b918dcf1b98e8d6,1,train,coffee leaf rust,True,True,QUARANTINE
+plant wild\test\corn northern leaf blight\google_0003.jpg,test,corn northern leaf blight,9c3c877762a7df28320d98feb76a4f9d,1,train,corn gray leaf spot,True,True,QUARANTINE
+plant wild\test\corn gray leaf spot\38.jpg,test,corn gray leaf spot,3b7916d9e3e0faba5f1b8abda34937da,1,train,corn northern leaf blight,True,True,QUARANTINE
+plant wild\test\corn gray leaf spot\google_0026.jpg,test,corn gray leaf spot,4083f6f574c598a917e23f46672cf218,1,train,corn northern leaf blight,True,True,QUARANTINE
+plant wild\test\corn northern leaf blight\59.jpg,test,corn northern leaf blight,b9493239f6230b98cf70da3d345a0907,1,train,corn rust,True,True,QUARANTINE
+plant wild\test\squash powdery mildew\google_0192.jpg,test,squash powdery mildew,14ca5148d1ff0d2d30726393e78887a8,1,train,cucumber powdery mildew,True,True,QUARANTINE
+plant wild\test\cherry powdery mildew\google_0003.jpg,test,cherry powdery mildew,70e1751185af01acf9346df27c87cd33,1,train,cucumber powdery mildew,True,True,QUARANTINE
+plant wild\test\squash powdery mildew\google_0100.jpg,test,squash powdery mildew,35778def24f0c8acbe8b7b204af677e0,1,train,cucumber powdery mildew,True,True,QUARANTINE
+plant wild\test\cherry powdery mildew\google_0058.jpg,test,cherry powdery mildew,b14e0f31652a4ac3261811a95117cf8b,1,train,cucumber powdery mildew,True,True,QUARANTINE
+plant wild\test\garlic leaf blight\google_0254.jpg,test,garlic leaf blight,cac4ca272c8ce23e4e15ea2096b1233c,1,train,garlic leaf,True,True,QUARANTINE
+plant wild\test\ginger leaf spot\172.jpg,test,ginger leaf spot,e511323044da90197cbb7efd7c9e0996,1,train,garlic leaf blight,True,True,QUARANTINE
+plant wild\test\garlic leaf blight\google_0044.jpg,test,garlic leaf blight,0e399211e8a863ae0e7d89901fe0567d,1,train,garlic rust,True,True,QUARANTINE
+plant wild\test\ginger sheath blight\10.jpg,test,ginger sheath blight,710f1ce8d49041db3de5d145fc3dda6e,1,train,ginger leaf spot,True,True,QUARANTINE
+plant wild\test\ginger leaf\google_0002.jpg,test,ginger leaf,632f0b323f54d6e61dbd4a6d62886653,1,train,ginger leaf spot,True,True,QUARANTINE
+plant wild\test\rice sheath blight\138.jpg,test,rice sheath blight,0688b47a55dd1f46873b84e5567631e4,1,train,ginger sheath blight,True,True,QUARANTINE
+plant wild\test\ginger leaf spot\25.jpg,test,ginger leaf spot,3af83a6c965bc3c608e978fc5c3246f4,1,train,ginger sheath blight,True,True,QUARANTINE
+plant wild\test\rice sheath blight\google_0028.jpg,test,rice sheath blight,a4b9c9bc696d6f0f5986358eb89dcd96,1,train,ginger sheath blight,True,True,QUARANTINE
+plant wild\test\cucumber powdery mildew\172.jpg,test,cucumber powdery mildew,e52977e7a8df7904137c46cd384eea15,1,train,grape downy mildew,True,True,QUARANTINE
+plant wild\test\grape leaf spot\1.jpg,test,grape leaf spot,9f76dd0e9a9e3837587604cd7ad32e42,1,train,grape downy mildew,True,True,QUARANTINE
+plant wild\test\cherry powdery mildew\google_0029.jpg,test,cherry powdery mildew,b84429aba162431b363ce988fcef3f87,1,train,grape downy mildew,True,True,QUARANTINE
+plant wild\test\cherry powdery mildew\google_0032.jpg,test,cherry powdery mildew,9ad392f4f1c1fc54ca53ea86a41eb13c,1,train,grape downy mildew,True,True,QUARANTINE
+plant wild\test\lettuce downy mildew\47.jpg,test,lettuce downy mildew,d52cf72077cece825fba47b4b7b592dd,1,train,lettuce mosaic virus,True,True,QUARANTINE
+plant wild\test\grape leaf spot\google_0032.jpg,test,grape leaf spot,3b2a594c2b857455b02973c591f4b2e7,1,train,maple tar spot,True,True,QUARANTINE
+plant wild\test\tomato early blight\google_0287.jpg,test,tomato early blight,c9cc5ce77edf29c800282e8d3bb0fbd9,1,train,potato early blight,True,True,QUARANTINE
+plant wild\test\cabbage alternaria leaf spot\google_0226.jpg,test,cabbage alternaria leaf spot,cc74193243d4a7408ee71c9eebd17fc4,2,train,potato early blight | tomato early blight,True,True,QUARANTINE
+plant wild\test\tomato late blight\google_0056.jpg,test,tomato late blight,fe414c3f31b4eb32380cb417dbfe109f,3,train,potato late blight | tomato early blight,True,True,QUARANTINE
+plant wild\test\potato early blight\google_0284.jpg,test,potato early blight,dd9a54a630c1991dc03c7c95e77954ef,1,train,potato late blight,True,True,QUARANTINE
+plant wild\test\ginger sheath blight\20.jpg,test,ginger sheath blight,db8cc2f93b51f978458384d6db45c5c9,1,train,rice sheath blight,True,True,QUARANTINE
+plant wild\test\ginger sheath blight\39.jpg,test,ginger sheath blight,af184ea02ef78957b3a3ff05d1a30590,1,train,rice sheath blight,True,True,QUARANTINE
+plant wild\test\bean leaf\6.jpg,test,bean leaf,d459f102d5d05901c7d6683322921719,1,train,soybean leaf,True,True,QUARANTINE
+plant wild\test\bean leaf\56.jpg,test,bean leaf,9b62cf30ab4035076859417811183658,1,train,soybean leaf,True,True,QUARANTINE
+plant wild\test\bean leaf\google_0005.jpg,test,bean leaf,2cf35011b8e4a73124667495b904b4df,1,train,soybean leaf,True,True,QUARANTINE
+plant wild\test\cucumber powdery mildew\google_0002.jpg,test,cucumber powdery mildew,22f46b88572942df475676e07a0086b3,1,train,squash powdery mildew,True,True,QUARANTINE
+plant wild\test\cucumber powdery mildew\google_0001.jpg,test,cucumber powdery mildew,8461ae09af7d9b7c3ec80e1bf13cd2cb,1,train,squash powdery mildew,True,True,QUARANTINE
+plant wild\test\cucumber leaf\google_0177.jpg,test,cucumber leaf,d0947f3ce810c68de81cf8987be68a11,1,train,squash powdery mildew,True,True,QUARANTINE
+plant wild\test\cucumber powdery mildew\google_0022.jpg,test,cucumber powdery mildew,87dbdb392d0c7e470c62409a5a6d490e,1,train,squash powdery mildew,True,True,QUARANTINE
+plant wild\test\tobacco mosaic virus\12.jpg,test,tobacco mosaic virus,3a6bccbd1834d136080932f136753f46,1,train,tobacco leaf,True,True,QUARANTINE
+plant wild\test\tomato late blight\39.jpg,test,tomato late blight,e9aa25b0a292a7902e41723f7e50af70,1,train,tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\test\tomato septoria leaf spot\google_0204.jpg,test,tomato septoria leaf spot,781c437d3404e9b42102f59ce7fee904,1,train,tomato bacterial leaf spot,True,True,QUARANTINE
+plant wild\test\tomato late blight\google_0008.jpg,test,tomato late blight,2d67993ca7c22c84a5e75d8ad62f9d9b,1,train,tomato early blight,True,True,QUARANTINE
+plant wild\test\tomato late blight\google_0268.jpg,test,tomato late blight,da82acef550f6998633b429271c62933,1,train,tomato early blight,True,True,QUARANTINE
+plant wild\test\tomato late blight\google_0200.jpg,test,tomato late blight,f4e1a5f2cabb01a58c1799f68e6dd157,1,train,tomato early blight,True,True,QUARANTINE
+plant wild\test\potato early blight\google_0241.jpg,test,potato early blight,bd51f9f8e4740363243bb841900f6b25,1,train,tomato early blight,True,True,QUARANTINE
+plant wild\test\tomato early blight\188.jpg,test,tomato early blight,843676327b6db62e6ce3238cb0d266be,1,train,tomato late blight,True,True,QUARANTINE
+plant wild\test\tomato early blight\67 - Copy.jpg,test,tomato early blight,a0fa02f07048650b30b328226493d006,1,train,tomato late blight,True,True,QUARANTINE
+plant wild\test\bell pepper leaf\97.jpg,test,bell pepper leaf,58a69d712f7fdc51d3fca53541e2ae84,1,train,tomato leaf,True,True,QUARANTINE
+plant wild\test\tomato leaf mold\80.jpg,test,tomato leaf mold,4bf0a73bb8d49b02e12946fcd5f160a2,1,train,tomato leaf,True,True,QUARANTINE
+plant wild\test\tomato leaf\152.jpg,test,tomato leaf,1e795812fd7c150bb39745f82923fe0b,1,train,tomato leaf mold,True,True,QUARANTINE
+plant wild\test\cherry leaf spot\google_0465.jpg,test,cherry leaf spot,2b8946a53fe38791e73d63a431bcaee0,3,"test, train",eggplant cercospora leaf spot | tomato leaf mold | tomato septoria leaf spot,True,False,SPECIAL_REVIEW
+plant wild\test\eggplant cercospora leaf spot\google_0122.jpg,test,eggplant cercospora leaf spot,2b8946a53fe38791e73d63a431bcaee0,3,"test, train",cherry leaf spot | tomato leaf mold | tomato septoria leaf spot,True,False,SPECIAL_REVIEW
+plant wild\test\tomato leaf\google_0056.jpg,test,tomato leaf,ca8c6e3ada3432fb107fabc114e81ed8,1,train,tomato leaf mold,True,True,QUARANTINE
+plant wild\test\tomato yellow leaf curl virus\1.jpg,test,tomato yellow leaf curl virus,f8a600fb04c1bcaf9a6ff056748b74f6,1,train,tomato mosaic virus,True,True,QUARANTINE
+plant wild\test\tomato yellow leaf curl virus\15.jpg,test,tomato yellow leaf curl virus,7055f41ab5e5a07055c8e7db93226f32,1,train,tomato mosaic virus,True,True,QUARANTINE
+plant wild\test\tomato early blight\google_0354.jpg,test,tomato early blight,b1888f7a6aadcf8eec82b33de8e8496a,1,train,tomato septoria leaf spot,True,True,QUARANTINE
+plant wild\test\tomato bacterial leaf spot\google_0415.jpg,test,tomato bacterial leaf spot,209ea4039ac6deacc2518c19f16f60d1,1,train,tomato septoria leaf spot,True,True,QUARANTINE
+plant wild\test\tomato mosaic virus\25.jpg,test,tomato mosaic virus,43b65dcd9f17bc996c1814896905a50f,1,train,tomato yellow leaf curl virus,True,True,QUARANTINE
+plant wild\test\lettuce mosaic virus\51.jpg,test,lettuce mosaic virus,07eb3dfa049419cc47dc405a293f1c75,1,train,zucchini yellow mosaic virus,True,True,QUARANTINE

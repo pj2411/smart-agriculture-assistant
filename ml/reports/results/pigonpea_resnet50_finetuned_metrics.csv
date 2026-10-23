@@ -1,0 +1,6 @@
+Dataset,Model,Class,Precision,Recall,F1_Score,Support
+pigonpea,ResNet50 Fine-Tuned,Healthy,0.9354838709677419,1.0,0.9666666666666667,29.0
+pigonpea,ResNet50 Fine-Tuned,Leaf_Spot,0.6811594202898551,0.9215686274509803,0.7833333333333333,51.0
+pigonpea,ResNet50 Fine-Tuned,Leaf_webber,1.0,0.8695652173913043,0.9302325581395349,23.0
+pigonpea,ResNet50 Fine-Tuned,Sterilic_mosaic,0.8846153846153846,0.5348837209302325,0.6666666666666666,43.0
+pigonpea,ResNet50 Fine-Tuned,Overall Accuracy,,,0.815068493150685,0.815068493150685

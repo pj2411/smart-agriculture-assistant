@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetName": "JalSaathi climate scenario lab",
+  "mode": "SIMULATED_TEST_FIXTURES_ONLY",
+  "notice": "These 20 cases are software test fixtures only. They are not live ESP32 readings, universal soil-moisture values, or agronomic recommendations.",
+  "thresholdsNote": "SIMULATED TEST THRESHOLDS — NOT OPTIMAL CROP RANGES",
+  "scenarios": [
+    {"id":"js-01","label":"Normal baseline","cropLabel":"Tomato","temperatureC":26,"soilMoisturePercent":48,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"normal"}},
+    {"id":"js-02","label":"Normal humid","cropLabel":"Cucumber","temperatureC":29,"soilMoisturePercent":55,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"normal"}},
+    {"id":"js-03","label":"High temperature only","cropLabel":"Capsicum","temperatureC":35,"soilMoisturePercent":52,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"high_temperature","moisture":"normal"}},
+    {"id":"js-04","label":"Low moisture only","cropLabel":"Tomato","temperatureC":27,"soilMoisturePercent":20,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"low_moisture"}},
+    {"id":"js-05","label":"Low temperature only","cropLabel":"Pea","temperatureC":8,"soilMoisturePercent":45,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"low_temperature","moisture":"normal"}},
+    {"id":"js-06","label":"High moisture only","cropLabel":"Cucumber","temperatureC":27,"soilMoisturePercent":82,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"high_moisture"}},
+    {"id":"js-07","label":"Hot and dry","cropLabel":"Tomato","temperatureC":36,"soilMoisturePercent":18,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"high_temperature","moisture":"low_moisture"}},
+    {"id":"js-08","label":"Cold and wet","cropLabel":"Cucumber","temperatureC":8,"soilMoisturePercent":84,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"low_temperature","moisture":"high_moisture"}},
+    {"id":"js-09","label":"Warm and slightly dry","cropLabel":"Chilli","temperatureC":34,"soilMoisturePercent":28,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"high_temperature","moisture":"low_moisture"}},
+    {"id":"js-10","label":"Cool and dry","cropLabel":"Spinach","temperatureC":9,"soilMoisturePercent":24,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"low_temperature","moisture":"low_moisture"}},
+    {"id":"js-11","label":"Mild growing day","cropLabel":"Tomato","temperatureC":18,"soilMoisturePercent":44,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"normal"}},
+    {"id":"js-12","label":"Warm but balanced","cropLabel":"Okra","temperatureC":31,"soilMoisturePercent":64,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"normal"}},
+    {"id":"js-13","label":"Hot and saturated","cropLabel":"Cucumber","temperatureC":34,"soilMoisturePercent":86,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"high_temperature","moisture":"high_moisture"}},
+    {"id":"js-14","label":"Cold and saturated","cropLabel":"Lettuce","temperatureC":6,"soilMoisturePercent":78,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"low_temperature","moisture":"high_moisture"}},
+    {"id":"js-15","label":"Lower temperature boundary","cropLabel":"Tomato","temperatureC":12,"soilMoisturePercent":45,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"normal"}},
+    {"id":"js-16","label":"Upper temperature boundary","cropLabel":"Capsicum","temperatureC":32,"soilMoisturePercent":45,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"normal"}},
+    {"id":"js-17","label":"Lower moisture boundary","cropLabel":"Cucumber","temperatureC":27,"soilMoisturePercent":30,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"normal"}},
+    {"id":"js-18","label":"Upper moisture boundary","cropLabel":"Tomato","temperatureC":27,"soilMoisturePercent":70,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"normal"}},
+    {"id":"js-19","label":"High temperature moderate moisture","cropLabel":"Brinjal","temperatureC":33,"soilMoisturePercent":40,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"high_temperature","moisture":"normal"}},
+    {"id":"js-20","label":"Warm low moisture","cropLabel":"Tomato","temperatureC":25,"soilMoisturePercent":29,"thresholds":{"temperature":{"lowC":12,"highC":32},"moisture":{"lowPercent":30,"highPercent":70}},"expected":{"temperature":"normal","moisture":"low_moisture"}}
+  ]
+}

@@ -1,0 +1,7 @@
+Dataset,Model,Class,Precision,Recall,F1_Score,Support
+apple,ResNet50 Fine-Tuned,Alternaria leaf spot,0.975,0.9512195121951219,0.9629629629629629,41.0
+apple,ResNet50 Fine-Tuned,Brown spot,1.0,0.96875,0.9841269841269841,32.0
+apple,ResNet50 Fine-Tuned,Gray spot,0.9333333333333333,0.9333333333333333,0.9333333333333333,60.0
+apple,ResNet50 Fine-Tuned,Healthy leaf,0.9538461538461539,1.0,0.9763779527559056,62.0
+apple,ResNet50 Fine-Tuned,Rust,1.0,0.9807692307692307,0.9902912621359223,52.0
+apple,ResNet50 Fine-Tuned,Overall Accuracy,,,0.9676113360323887,0.9676113360323887

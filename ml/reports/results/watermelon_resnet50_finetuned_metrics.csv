@@ -1,0 +1,6 @@
+Dataset,Model,Class,Precision,Recall,F1_Score,Support
+Watermelon,ResNet50 Fine-Tuned,Anthracnose,1.0,1.0,1.0,139.0
+Watermelon,ResNet50 Fine-Tuned,Downy_Mildew,1.0,1.0,1.0,342.0
+Watermelon,ResNet50 Fine-Tuned,Healthy,0.9946236559139785,1.0,0.9973045822102425,185.0
+Watermelon,ResNet50 Fine-Tuned,Mosaic_Virus,1.0,0.9973262032085561,0.998661311914324,374.0
+Watermelon,ResNet50 Fine-Tuned,Overall Accuracy,,,0.9990384615384615,0.9990384615384615

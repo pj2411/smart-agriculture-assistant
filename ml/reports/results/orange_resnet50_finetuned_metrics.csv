@@ -1,0 +1,6 @@
+Dataset,Model,Class,Precision,Recall,F1_Score,Support
+orange,ResNet50 Fine-Tuned,blackspot,0.95,0.8636363636363636,0.9047619047619048,22.0
+orange,ResNet50 Fine-Tuned,canker,0.84,0.9545454545454546,0.8936170212765957,22.0
+orange,ResNet50 Fine-Tuned,fresh,1.0,0.9696969696969697,0.9846153846153847,33.0
+orange,ResNet50 Fine-Tuned,grenning,1.0,1.0,1.0,22.0
+orange,ResNet50 Fine-Tuned,Overall Accuracy,,,0.9494949494949495,0.9494949494949495

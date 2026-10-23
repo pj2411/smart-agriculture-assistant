@@ -1,0 +1,7 @@
+Dataset,Model,Class,Precision,Recall,F1_Score,Support
+coffee,ResNet50 Fine-Tuned,Cerscospora,1.0,1.0,1.0,1152.0
+coffee,ResNet50 Fine-Tuned,Healthy,1.0,1.0,1.0,2848.0
+coffee,ResNet50 Fine-Tuned,Leaf rust,1.0,1.0,1.0,1251.0
+coffee,ResNet50 Fine-Tuned,Miner,0.999607535321821,1.0,0.9998037291462217,2547.0
+coffee,ResNet50 Fine-Tuned,Phoma,1.0,0.9989847715736041,0.9994921279837481,985.0
+coffee,ResNet50 Fine-Tuned,Overall Accuracy,,,0.9998861436866674,0.9998861436866674
