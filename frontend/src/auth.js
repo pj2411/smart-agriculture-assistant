@@ -8,7 +8,8 @@ const SUPABASE_URL = (import.meta.env.VITE_SUPABASE_URL || '').replace(/\/+$/, '
 const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || ''
 const SESSION_KEY = 'jalsaathi_supabase_session'
 const DEMO_TOKEN = 'jalsaathi-local-demo-farmer'
-export const demoAuthEnabled = import.meta.env.VITE_LOCAL_DEMO_AUTH === 'true'
+const SUPABASE_CONFIGURED = Boolean((import.meta.env.VITE_SUPABASE_URL || '') && (import.meta.env.VITE_SUPABASE_ANON_KEY || ''))
+export const demoAuthEnabled = import.meta.env.VITE_LOCAL_DEMO_AUTH === 'true' || !SUPABASE_CONFIGURED
 export const demoEmail = import.meta.env.VITE_LOCAL_DEMO_EMAIL || 'farmer@jalsaathi.local'
 export const demoPassword = import.meta.env.VITE_LOCAL_DEMO_PASSWORD || 'JalSaathiDemo2026!'
 
