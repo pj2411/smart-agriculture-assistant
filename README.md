@@ -6,7 +6,6 @@
 [![CatBoost](https://img.shields.io/badge/CatBoost-Crop%20Model-FFCC00.svg?style=flat)](https://catboost.ai)
 [![ResNet50](https://img.shields.io/badge/TensorFlow-ResNet50%20(13%20Crops)-FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)](https://tensorflow.org)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-Models-FFD21E.svg?style=flat&logo=HuggingFace&logoColor=black)](https://huggingface.co/DhruvKatharotiya/smart-agriculture-models)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A voice-first, climate-aware, AI-powered agricultural advisory platform designed for small- and medium-scale farmers. **JalSaathi** delivers precision crop recommendations, deep-learning plant disease diagnosis, greenhouse IoT telemetry, and multilingual voice conversational guidance in regional Indian languages.
 
@@ -208,7 +207,3 @@ Configured via [`vercel.json`](vercel.json) with automated SPA asset rewrites:
 4. Set Output Directory to `frontend/dist` (or `dist`).
 5. Configure `VITE_API_URL` to point to your live Render backend URL.
 
----
-
-## 📄 License
-This project is licensed under the [MIT License](LICENSE).
